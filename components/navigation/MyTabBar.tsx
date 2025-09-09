@@ -52,7 +52,7 @@ const MyTabBar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigation 
             onLongPress={onLongPress}
             style={{ flex: 1 } as ViewStyle}
           >
-            <Text style={{ color: isFocused ? colors.primary : colors.text, textAlign: 'center', padding: 10 }}>
+            <Text style={{ color: isFocused ? colors.primary : colors.text, textAlign: 'center', padding: 10 , height: '50'}}>
               {label}
             </Text>
           </PlatformPressable>
