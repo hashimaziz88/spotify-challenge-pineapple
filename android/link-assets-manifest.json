@@ -1,0 +1,69 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/SpotifyMix-Black.ttf",
+      "sha1": "cb370c8e33d144ea5e590798e7bd38e20afcfc07"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-BlackItalic.ttf",
+      "sha1": "1c491231284baf938bf44a7c2ce83397aa54eee3"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-Bold.ttf",
+      "sha1": "9d2b9cfeb6449a1606a1961fd93a85bcf6dc5a95"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-BoldItalic.ttf",
+      "sha1": "3d2a02038c262649263b4f8829ba7c4c0589cc0e"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-Extrabold.ttf",
+      "sha1": "d3ebd02a3f431e8f2b3e2de8bce3e836d129db6c"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-ExtraboldItalic.ttf",
+      "sha1": "f246ced1745a4e9540eee4098d926c7c3f3990bb"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-Light.ttf",
+      "sha1": "023f55a96a578920433c0d5cef4eb1ae4dbe4b40"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-LightItalic.ttf",
+      "sha1": "6382f45cf86e78944b46c0582ffbe38a30e9004f"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-Medium.ttf",
+      "sha1": "513d36a695613952304e31de508941317400474c"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-MediumItalic.ttf",
+      "sha1": "bef75f617f8e8e1d27f10668b57204042c5c442a"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-Regular.ttf",
+      "sha1": "45d42b9845b4cc4be50a2f8dedc9086b3183a251"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-RegularItalic.ttf",
+      "sha1": "8dbd3882d8608a20a2e36590f21107ab623a8741"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-Thin.ttf",
+      "sha1": "cf5d0278da42cb517c760dfb3aee16090e07cb1a"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-ThinItalic.ttf",
+      "sha1": "d3734b38faa6e08d2b75c840464c89ebe9e61a06"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-Ultra.ttf",
+      "sha1": "e3f4701cec0bdbfc2c50317b7c625df0ba841a69"
+    },
+    {
+      "path": "assets/fonts/SpotifyMix-UltraItalic.ttf",
+      "sha1": "db44a1df7e92c5473e4dfa8edf8ceec33081e6da"
+    }
+  ]
+}

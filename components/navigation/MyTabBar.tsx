@@ -4,13 +4,14 @@ import { View, ViewStyle } from 'react-native';
 import { useLinkBuilder, useTheme } from '@react-navigation/native';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { Text, PlatformPressable } from '@react-navigation/elements';
+import { Color } from 'react-native/types_generated/Libraries/Animated/AnimatedExports';
 
 const MyTabBar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigation }) => {
   const { colors } = useTheme();
   const { buildHref } = useLinkBuilder();
 
   return (
-    <View style={{ flexDirection: 'row' }}>
+    <View style={{ flexDirection: 'row' , backgroundColor: '#181818'}}>
       {state.routes.map((route, index) => {
         const { options } = descriptors[route.key];
         const label: string =
@@ -52,7 +53,7 @@ const MyTabBar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigation 
             onLongPress={onLongPress}
             style={{ flex: 1 } as ViewStyle}
           >
-            <Text style={{ color: isFocused ? colors.primary : colors.text, textAlign: 'center', padding: 10 , height: '50'}}>
+            <Text style={{ color: isFocused ? '#FFFFFF' : '#B4B4B4', textAlign: 'center', padding: 10 , fontFamily: 'SpotifyMix-Black'}}>
               {label}
             </Text>
           </PlatformPressable>

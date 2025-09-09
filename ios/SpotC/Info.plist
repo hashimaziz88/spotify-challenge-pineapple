@@ -32,7 +32,7 @@
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>RCTNewArchEnabled</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -49,5 +49,24 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SpotifyMix-Black.ttf</string>
+		<string>SpotifyMix-BlackItalic.ttf</string>
+		<string>SpotifyMix-Bold.ttf</string>
+		<string>SpotifyMix-BoldItalic.ttf</string>
+		<string>SpotifyMix-Extrabold.ttf</string>
+		<string>SpotifyMix-ExtraboldItalic.ttf</string>
+		<string>SpotifyMix-Light.ttf</string>
+		<string>SpotifyMix-LightItalic.ttf</string>
+		<string>SpotifyMix-Medium.ttf</string>
+		<string>SpotifyMix-MediumItalic.ttf</string>
+		<string>SpotifyMix-Regular.ttf</string>
+		<string>SpotifyMix-RegularItalic.ttf</string>
+		<string>SpotifyMix-Thin.ttf</string>
+		<string>SpotifyMix-ThinItalic.ttf</string>
+		<string>SpotifyMix-Ultra.ttf</string>
+		<string>SpotifyMix-UltraItalic.ttf</string>
+	</array>
 </dict>
 </plist>
