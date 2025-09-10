@@ -9,54 +9,54 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-SpotC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SpotC.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F5EBEDADCBF5F87E91430FF1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		66E922E8677D410E91AED37B /* SpotifyMix-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 367CC364F7D542A79D5742B9 /* SpotifyMix-Black.ttf */; };
-		FDD5073E15C143B08FE1F8EE /* SpotifyMix-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4EF04BF18434C2DB1C3BDAC /* SpotifyMix-BlackItalic.ttf */; };
-		E8F2B34FAA3B4505BE5D1E55 /* SpotifyMix-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC48602590994EADB2D45A0E /* SpotifyMix-Bold.ttf */; };
-		A959BC5FB575428CB83DE538 /* SpotifyMix-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972D4BC1E6CA4186BFC860E2 /* SpotifyMix-BoldItalic.ttf */; };
-		8CE88F10C6A840A2AA83FB45 /* SpotifyMix-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEBD21C1A31478EBD884F89 /* SpotifyMix-Extrabold.ttf */; };
+		15762378354A4FBAAFA10746 /* SpotifyMix-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6119A064FBED4827959B7059 /* SpotifyMix-Medium.ttf */; };
+		2BCADB73B4FB4776981016FE /* SpotifyMix-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5720C76D69841BCB0513A17 /* SpotifyMix-ThinItalic.ttf */; };
+		4744760B841949B3AAB12F3D /* SpotifyMix-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1567957C85DC4F2295392740 /* SpotifyMix-Thin.ttf */; };
 		489B0416567343479C92BC86 /* SpotifyMix-ExtraboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C46394723E94EED8FBC935B /* SpotifyMix-ExtraboldItalic.ttf */; };
 		49E8C96608914B00A846733D /* SpotifyMix-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96382B814D1F4113845AAC25 /* SpotifyMix-Light.ttf */; };
-		E0D19E2890AF48A5B8D4D81E /* SpotifyMix-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82A439D9E32B46A3AA08D1FB /* SpotifyMix-LightItalic.ttf */; };
-		15762378354A4FBAAFA10746 /* SpotifyMix-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6119A064FBED4827959B7059 /* SpotifyMix-Medium.ttf */; };
-		EA19244287BB4E7A9B330DEC /* SpotifyMix-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72D03607622644999611E6DC /* SpotifyMix-MediumItalic.ttf */; };
 		55350E889CC84E71AD37A7AA /* SpotifyMix-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D1389D0635049249B843B97 /* SpotifyMix-Regular.ttf */; };
-		B4191F0845E0455290E4176A /* SpotifyMix-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B834C04717DF405CB19D19B2 /* SpotifyMix-RegularItalic.ttf */; };
-		4744760B841949B3AAB12F3D /* SpotifyMix-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1567957C85DC4F2295392740 /* SpotifyMix-Thin.ttf */; };
-		2BCADB73B4FB4776981016FE /* SpotifyMix-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5720C76D69841BCB0513A17 /* SpotifyMix-ThinItalic.ttf */; };
-		9542EA0DF6B74BDDBBD10864 /* SpotifyMix-Ultra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19EB164DFD7B470EBDC3E0E0 /* SpotifyMix-Ultra.ttf */; };
+		66E922E8677D410E91AED37B /* SpotifyMix-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 367CC364F7D542A79D5742B9 /* SpotifyMix-Black.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		84D860B9F2D044D3AA32193D /* SpotifyMix-UltraItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AFC980664D24FBD8B80D546 /* SpotifyMix-UltraItalic.ttf */; };
+		8CE88F10C6A840A2AA83FB45 /* SpotifyMix-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEBD21C1A31478EBD884F89 /* SpotifyMix-Extrabold.ttf */; };
+		9542EA0DF6B74BDDBBD10864 /* SpotifyMix-Ultra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19EB164DFD7B470EBDC3E0E0 /* SpotifyMix-Ultra.ttf */; };
+		A959BC5FB575428CB83DE538 /* SpotifyMix-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972D4BC1E6CA4186BFC860E2 /* SpotifyMix-BoldItalic.ttf */; };
+		B4191F0845E0455290E4176A /* SpotifyMix-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B834C04717DF405CB19D19B2 /* SpotifyMix-RegularItalic.ttf */; };
+		E0D19E2890AF48A5B8D4D81E /* SpotifyMix-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82A439D9E32B46A3AA08D1FB /* SpotifyMix-LightItalic.ttf */; };
+		E8F2B34FAA3B4505BE5D1E55 /* SpotifyMix-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC48602590994EADB2D45A0E /* SpotifyMix-Bold.ttf */; };
+		EA19244287BB4E7A9B330DEC /* SpotifyMix-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72D03607622644999611E6DC /* SpotifyMix-MediumItalic.ttf */; };
+		F5EBEDADCBF5F87E91430FF1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		FDD5073E15C143B08FE1F8EE /* SpotifyMix-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4EF04BF18434C2DB1C3BDAC /* SpotifyMix-BlackItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C46394723E94EED8FBC935B /* SpotifyMix-ExtraboldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-ExtraboldItalic.ttf"; path = "../assets/fonts/SpotifyMix-ExtraboldItalic.ttf"; sourceTree = "<group>"; };
+		0D1389D0635049249B843B97 /* SpotifyMix-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-Regular.ttf"; path = "../assets/fonts/SpotifyMix-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SpotC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpotC/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SpotC/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = SpotC/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1567957C85DC4F2295392740 /* SpotifyMix-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-Thin.ttf"; path = "../assets/fonts/SpotifyMix-Thin.ttf"; sourceTree = "<group>"; };
+		19EB164DFD7B470EBDC3E0E0 /* SpotifyMix-Ultra.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-Ultra.ttf"; path = "../assets/fonts/SpotifyMix-Ultra.ttf"; sourceTree = "<group>"; };
+		1AFC980664D24FBD8B80D546 /* SpotifyMix-UltraItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-UltraItalic.ttf"; path = "../assets/fonts/SpotifyMix-UltraItalic.ttf"; sourceTree = "<group>"; };
+		367CC364F7D542A79D5742B9 /* SpotifyMix-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-Black.ttf"; path = "../assets/fonts/SpotifyMix-Black.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-SpotC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotC.debug.xcconfig"; path = "Target Support Files/Pods-SpotC/Pods-SpotC.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-SpotC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotC.release.xcconfig"; path = "Target Support Files/Pods-SpotC/Pods-SpotC.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-SpotC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpotC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6119A064FBED4827959B7059 /* SpotifyMix-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-Medium.ttf"; path = "../assets/fonts/SpotifyMix-Medium.ttf"; sourceTree = "<group>"; };
+		72D03607622644999611E6DC /* SpotifyMix-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-MediumItalic.ttf"; path = "../assets/fonts/SpotifyMix-MediumItalic.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SpotC/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SpotC/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82A439D9E32B46A3AA08D1FB /* SpotifyMix-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-LightItalic.ttf"; path = "../assets/fonts/SpotifyMix-LightItalic.ttf"; sourceTree = "<group>"; };
+		96382B814D1F4113845AAC25 /* SpotifyMix-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-Light.ttf"; path = "../assets/fonts/SpotifyMix-Light.ttf"; sourceTree = "<group>"; };
+		972D4BC1E6CA4186BFC860E2 /* SpotifyMix-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-BoldItalic.ttf"; path = "../assets/fonts/SpotifyMix-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B834C04717DF405CB19D19B2 /* SpotifyMix-RegularItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-RegularItalic.ttf"; path = "../assets/fonts/SpotifyMix-RegularItalic.ttf"; sourceTree = "<group>"; };
+		D5720C76D69841BCB0513A17 /* SpotifyMix-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-ThinItalic.ttf"; path = "../assets/fonts/SpotifyMix-ThinItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		367CC364F7D542A79D5742B9 /* SpotifyMix-Black.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-Black.ttf"; path = "../assets/fonts/SpotifyMix-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F4EF04BF18434C2DB1C3BDAC /* SpotifyMix-BlackItalic.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-BlackItalic.ttf"; path = "../assets/fonts/SpotifyMix-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FC48602590994EADB2D45A0E /* SpotifyMix-Bold.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-Bold.ttf"; path = "../assets/fonts/SpotifyMix-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		972D4BC1E6CA4186BFC860E2 /* SpotifyMix-BoldItalic.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-BoldItalic.ttf"; path = "../assets/fonts/SpotifyMix-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FBEBD21C1A31478EBD884F89 /* SpotifyMix-Extrabold.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-Extrabold.ttf"; path = "../assets/fonts/SpotifyMix-Extrabold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0C46394723E94EED8FBC935B /* SpotifyMix-ExtraboldItalic.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-ExtraboldItalic.ttf"; path = "../assets/fonts/SpotifyMix-ExtraboldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		96382B814D1F4113845AAC25 /* SpotifyMix-Light.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-Light.ttf"; path = "../assets/fonts/SpotifyMix-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		82A439D9E32B46A3AA08D1FB /* SpotifyMix-LightItalic.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-LightItalic.ttf"; path = "../assets/fonts/SpotifyMix-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6119A064FBED4827959B7059 /* SpotifyMix-Medium.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-Medium.ttf"; path = "../assets/fonts/SpotifyMix-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		72D03607622644999611E6DC /* SpotifyMix-MediumItalic.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-MediumItalic.ttf"; path = "../assets/fonts/SpotifyMix-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0D1389D0635049249B843B97 /* SpotifyMix-Regular.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-Regular.ttf"; path = "../assets/fonts/SpotifyMix-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B834C04717DF405CB19D19B2 /* SpotifyMix-RegularItalic.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-RegularItalic.ttf"; path = "../assets/fonts/SpotifyMix-RegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1567957C85DC4F2295392740 /* SpotifyMix-Thin.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-Thin.ttf"; path = "../assets/fonts/SpotifyMix-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D5720C76D69841BCB0513A17 /* SpotifyMix-ThinItalic.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-ThinItalic.ttf"; path = "../assets/fonts/SpotifyMix-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		19EB164DFD7B470EBDC3E0E0 /* SpotifyMix-Ultra.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-Ultra.ttf"; path = "../assets/fonts/SpotifyMix-Ultra.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1AFC980664D24FBD8B80D546 /* SpotifyMix-UltraItalic.ttf */ = {isa = PBXFileReference; name = "SpotifyMix-UltraItalic.ttf"; path = "../assets/fonts/SpotifyMix-UltraItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4EF04BF18434C2DB1C3BDAC /* SpotifyMix-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-BlackItalic.ttf"; path = "../assets/fonts/SpotifyMix-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FBEBD21C1A31478EBD884F89 /* SpotifyMix-Extrabold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-Extrabold.ttf"; path = "../assets/fonts/SpotifyMix-Extrabold.ttf"; sourceTree = "<group>"; };
+		FC48602590994EADB2D45A0E /* SpotifyMix-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpotifyMix-Bold.ttf"; path = "../assets/fonts/SpotifyMix-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,30 @@
 				5DCACB8F33CDC322A6C60F78 /* libPods-SpotC.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		392005B3E5AD4D6A8064860B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				367CC364F7D542A79D5742B9 /* SpotifyMix-Black.ttf */,
+				F4EF04BF18434C2DB1C3BDAC /* SpotifyMix-BlackItalic.ttf */,
+				FC48602590994EADB2D45A0E /* SpotifyMix-Bold.ttf */,
+				972D4BC1E6CA4186BFC860E2 /* SpotifyMix-BoldItalic.ttf */,
+				FBEBD21C1A31478EBD884F89 /* SpotifyMix-Extrabold.ttf */,
+				0C46394723E94EED8FBC935B /* SpotifyMix-ExtraboldItalic.ttf */,
+				96382B814D1F4113845AAC25 /* SpotifyMix-Light.ttf */,
+				82A439D9E32B46A3AA08D1FB /* SpotifyMix-LightItalic.ttf */,
+				6119A064FBED4827959B7059 /* SpotifyMix-Medium.ttf */,
+				72D03607622644999611E6DC /* SpotifyMix-MediumItalic.ttf */,
+				0D1389D0635049249B843B97 /* SpotifyMix-Regular.ttf */,
+				B834C04717DF405CB19D19B2 /* SpotifyMix-RegularItalic.ttf */,
+				1567957C85DC4F2295392740 /* SpotifyMix-Thin.ttf */,
+				D5720C76D69841BCB0513A17 /* SpotifyMix-ThinItalic.ttf */,
+				19EB164DFD7B470EBDC3E0E0 /* SpotifyMix-Ultra.ttf */,
+				1AFC980664D24FBD8B80D546 /* SpotifyMix-UltraItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -130,30 +154,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		392005B3E5AD4D6A8064860B /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				367CC364F7D542A79D5742B9 /* SpotifyMix-Black.ttf */,
-				F4EF04BF18434C2DB1C3BDAC /* SpotifyMix-BlackItalic.ttf */,
-				FC48602590994EADB2D45A0E /* SpotifyMix-Bold.ttf */,
-				972D4BC1E6CA4186BFC860E2 /* SpotifyMix-BoldItalic.ttf */,
-				FBEBD21C1A31478EBD884F89 /* SpotifyMix-Extrabold.ttf */,
-				0C46394723E94EED8FBC935B /* SpotifyMix-ExtraboldItalic.ttf */,
-				96382B814D1F4113845AAC25 /* SpotifyMix-Light.ttf */,
-				82A439D9E32B46A3AA08D1FB /* SpotifyMix-LightItalic.ttf */,
-				6119A064FBED4827959B7059 /* SpotifyMix-Medium.ttf */,
-				72D03607622644999611E6DC /* SpotifyMix-MediumItalic.ttf */,
-				0D1389D0635049249B843B97 /* SpotifyMix-Regular.ttf */,
-				B834C04717DF405CB19D19B2 /* SpotifyMix-RegularItalic.ttf */,
-				1567957C85DC4F2295392740 /* SpotifyMix-Thin.ttf */,
-				D5720C76D69841BCB0513A17 /* SpotifyMix-ThinItalic.ttf */,
-				19EB164DFD7B470EBDC3E0E0 /* SpotifyMix-Ultra.ttf */,
-				1AFC980664D24FBD8B80D546 /* SpotifyMix-UltraItalic.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
