@@ -1,13 +1,11 @@
 // MyTabBar.tsx
 import React from 'react';
 import { View, ViewStyle } from 'react-native';
-import { useLinkBuilder, useTheme } from '@react-navigation/native';
+import { useLinkBuilder} from '@react-navigation/native';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { Text, PlatformPressable } from '@react-navigation/elements';
-import { Color } from 'react-native/types_generated/Libraries/Animated/AnimatedExports';
 
 const MyTabBar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigation }) => {
-  const { colors } = useTheme();
   const { buildHref } = useLinkBuilder();
 
   return (

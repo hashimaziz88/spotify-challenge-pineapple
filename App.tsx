@@ -9,7 +9,7 @@ import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
 import {
   SafeAreaProvider,
 } from 'react-native-safe-area-context';
-import MyTabs from './components/navigation/MyTabs';
+import MyTabs from './screens/components/navigation/MyTabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { enableScreens } from 'react-native-screens';
 
