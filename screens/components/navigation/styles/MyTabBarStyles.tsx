@@ -4,14 +4,14 @@ const MyTabBarStyles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     backgroundColor: '#181818',
+    paddingVertical: 30,
   },
   pressable: {
     flex: 1,
   },
   label: {
     textAlign: 'center',
-    padding: 10,
-    fontFamily: 'SpotifyMix-Black',
+    fontFamily: 'SpotifyMix-Regular',
   },
 });
 

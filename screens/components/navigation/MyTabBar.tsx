@@ -1,6 +1,7 @@
 // MyTabBar.tsx
 import React from 'react';
 import { View } from 'react-native';
+import { MaterialDesignIcons } from '@react-native-vector-icons/material-design-icons';
 import MyTabBarStyles from './styles/MyTabBarStyles';
 import { useLinkBuilder} from '@react-navigation/native';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
@@ -52,9 +53,14 @@ const MyTabBar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigation 
             onLongPress={onLongPress}
             style={MyTabBarStyles.pressable}
           >
-            <Text style={[MyTabBarStyles.label, { color: isFocused ? '#FFFFFF' : '#B4B4B4' }]}> 
-              {label}
-            </Text>
+            <View style={{ alignItems: 'center', flexDirection: 'column', gap: 2 }}>
+              {label === 'Home' && (
+                <MaterialDesignIcons name="home-variant" color={isFocused ? '#FFFFFF' : '#B4B4B4'} size={24} style={{ marginBottom: 2 }} />
+              )}
+              <Text style={[MyTabBarStyles.label, { color: isFocused ? '#FFFFFF' : '#B4B4B4', marginTop: 0 }]}> 
+                {label}
+              </Text>
+            </View>
           </PlatformPressable>
         );
       })}

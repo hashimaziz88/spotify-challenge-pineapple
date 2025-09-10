@@ -5,6 +5,7 @@ import MyTabBar from './MyTabBar';
 import SearchScreen from '../../SearchScreen';
 import HomeScreen from '../..//HomeScreen';
 import ProfileScreen from '../..//ProfileScreen';
+import { MaterialDesignIcons } from '@react-native-vector-icons/material-design-icons';
 
 const Tab = createBottomTabNavigator();
 

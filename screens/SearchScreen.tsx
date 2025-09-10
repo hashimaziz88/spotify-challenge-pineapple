@@ -16,7 +16,7 @@ const SearchScreen: React.FC = () => {
   const gradientHeight = windowHeight - imageHeight;
 
   return (
-    <ScrollView style={{ flex: 1 }}>
+    <ScrollView style={styles.container}>
       <View onLayout={handleImageLayout}>
         <ImageComponent />
       </View>
@@ -30,11 +30,5 @@ export default SearchScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontSize: 24,
-    fontWeight: '600',
   },
 });
