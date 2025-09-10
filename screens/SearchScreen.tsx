@@ -1,16 +1,23 @@
-// HomeScreen.tsx
+// SearchScreen.tsx
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Image, StatusBar, ScrollView } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import ImageComponent from './components/search/ImageComponent';
 
-const HomeScreen: React.FC = () => {
+const SearchScreen: React.FC = () => {
+
+  const insets = useSafeAreaInsets();
+
   return (
-    <View style={styles.container}>
+    
+    <ScrollView>
+      <ImageComponent />
       <Text style={styles.text}>Search Screen</Text>
-    </View>
+    </ScrollView>
   );
 };
 
-export default HomeScreen;
+export default SearchScreen;
 
 const styles = StyleSheet.create({
   container: {
