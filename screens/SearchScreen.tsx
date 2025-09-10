@@ -1,12 +1,10 @@
 // SearchScreen.tsx
 import React from 'react';
-import { View, Text, StyleSheet, Image, StatusBar, ScrollView } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Text, StyleSheet,ScrollView } from 'react-native';
 import ImageComponent from './components/search/ImageComponent';
 
 const SearchScreen: React.FC = () => {
 
-  const insets = useSafeAreaInsets();
 
   return (
     
