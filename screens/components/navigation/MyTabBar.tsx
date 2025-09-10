@@ -1,6 +1,7 @@
 // MyTabBar.tsx
 import React from 'react';
-import { View, ViewStyle } from 'react-native';
+import { View } from 'react-native';
+import MyTabBarStyles from './styles/MyTabBarStyles';
 import { useLinkBuilder} from '@react-navigation/native';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { Text, PlatformPressable } from '@react-navigation/elements';
@@ -9,7 +10,7 @@ const MyTabBar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigation 
   const { buildHref } = useLinkBuilder();
 
   return (
-    <View style={{ flexDirection: 'row' , backgroundColor: '#181818'}}>
+  <View style={MyTabBarStyles.container}>
       {state.routes.map((route, index) => {
         const { options } = descriptors[route.key];
         const label: string =
@@ -49,9 +50,9 @@ const MyTabBar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigation 
             testID={options.tabBarButtonTestID}
             onPress={onPress}
             onLongPress={onLongPress}
-            style={{ flex: 1 } as ViewStyle}
+            style={MyTabBarStyles.pressable}
           >
-            <Text style={{ color: isFocused ? '#FFFFFF' : '#B4B4B4', textAlign: 'center', padding: 10 , fontFamily: 'SpotifyMix-Black'}}>
+            <Text style={[MyTabBarStyles.label, { color: isFocused ? '#FFFFFF' : '#B4B4B4' }]}> 
               {label}
             </Text>
           </PlatformPressable>

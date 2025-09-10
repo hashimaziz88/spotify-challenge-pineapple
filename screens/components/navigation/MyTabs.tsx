@@ -3,8 +3,6 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import MyTabBar from './MyTabBar';
 import SearchScreen from '../../SearchScreen';
-
-// Dummy Screens – Replace with your actual screen components
 import HomeScreen from '../..//HomeScreen';
 import ProfileScreen from '../..//ProfileScreen';
 
