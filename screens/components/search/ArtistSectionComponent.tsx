@@ -8,8 +8,17 @@ const ArtistSectionComponent: React.FC = () => {
   return (
     <View style={ArtistSectionComponentStyles.container}>
       <View style={ArtistSectionComponentStyles.tabRow}>
-        <Text style={[ArtistSectionComponentStyles.tab, ArtistSectionComponentStyles.activeTab]}>Music</Text>
-        <Text style={ArtistSectionComponentStyles.tab}>Events</Text>
+        <View style={{ position: 'relative' }}>
+          <Text style={[ArtistSectionComponentStyles.tab, ArtistSectionComponentStyles.activeTab]}>Music</Text>
+          <View style={ArtistSectionComponentStyles.underlineContainer}>
+            <View style={ArtistSectionComponentStyles.underline} />
+          </View>
+        </View>
+        <View style={{ position: "relative" }}>
+          <Text style={ArtistSectionComponentStyles.tab}>Events</Text>
+          <View style={ArtistSectionComponentStyles.underlineContainer}>
+          </View>
+        </View>
       </View>
       <View style={ArtistSectionComponentStyles.artistRow}>
         <View style={ArtistSectionComponentStyles.bubble}>

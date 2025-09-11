@@ -15,19 +15,31 @@ const ArtistSectionComponentStyles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '500',
     marginRight: 24,
-    paddingBottom: 12,
+    paddingBottom: 10,
     fontFamily: 'SpotifyMix-Regular',
   },
   activeTab: {
     color: '#fff',
-    borderBottomWidth: 2,
-    borderBottomColor: '#1ED760',
-  },
+    },
+    // Add underline container for green underline with black border
+    underlineContainer: {
+      position: 'relative',
+      height: 4,
+      alignItems: 'flex-start',
+    },
+    underline: {
+      width: '70%',
+      height: 4.5,
+      backgroundColor: '#1ED760',
+      borderRadius: 2,
+      borderWidth: 1,
+      borderColor: '#140005',
+    },
   artistRow: {
     flexDirection: 'row',
     alignItems: 'center',
     marginTop: 8,
-  },
+    },
   bubble: {
     width: 48,
     height: 48,
