@@ -2,24 +2,25 @@ import { StyleSheet } from 'react-native';
 
 const ArtistSectionComponentStyles = StyleSheet.create({
   container: {
-    backgroundColor: '#191919',
+    backgroundColor: '#131313',
     paddingHorizontal: 16,
   },
   tabRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 16,
+    marginTop: 5,
   },
   tab: {
     color: '#b3b3b3',
     fontSize: 18,
     fontWeight: '500',
     marginRight: 24,
-    paddingBottom: 15,
+    paddingBottom: 12,
+    fontFamily: 'SpotifyMix-Regular',
   },
   activeTab: {
     color: '#fff',
-    borderBottomWidth: 1.5,
+    borderBottomWidth: 2,
     borderBottomColor: '#1ED760',
   },
   artistRow: {
