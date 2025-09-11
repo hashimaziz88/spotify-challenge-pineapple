@@ -1,12 +1,11 @@
 import { Dimensions, StyleSheet } from 'react-native';
 
-const { width } = Dimensions.get('window');
-const IMAGE_HEIGHT = 340;
+const { height, width } = Dimensions.get('window');
 
 const ImageComponentStyles = StyleSheet.create({
   container: {
     width: width,
-    height: IMAGE_HEIGHT,
+    height: height * 0.386,
     overflow: 'hidden',
     backgroundColor: '#181818',
     alignSelf: 'center',
@@ -15,11 +14,14 @@ const ImageComponentStyles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 8,
     elevation: 8,
+    borderBottomColor: '#b34141ff',
+    borderBottomWidth: 2,
+    borderStyle: 'solid', // Add this
+
   },
   image: {
     width: '100%',
     height: '150%',
-    marginBottom: -IMAGE_HEIGHT * 0.18,
   },
 });
 
