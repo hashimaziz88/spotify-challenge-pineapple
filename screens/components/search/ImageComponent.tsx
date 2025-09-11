@@ -1,6 +1,7 @@
 import React from "react";
 import { Image, View } from 'react-native';
 import ImageComponentStyles from './styles/ImageComponentStyles';
+import { Text } from "@react-navigation/elements";
 
 
 const ImageComponent: React.FC = () => {
@@ -11,6 +12,7 @@ const ImageComponent: React.FC = () => {
         style={ImageComponentStyles.image}
         resizeMode="cover"
       />
+      <Text style={ImageComponentStyles.text}>AKA</Text>
       <View style={ImageComponentStyles.bottomBorder} />
     </View>
   );
