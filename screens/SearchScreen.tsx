@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { StyleSheet, ScrollView, View, LayoutChangeEvent, Dimensions } from 'react-native';
 import ImageComponent from './components/search/ImageComponent';
 import GradientComponent from './components/search/GradientComponent';
+import ArtistSectionComponent from './components/search/ArtistSectionComponent';
 
 const { height: windowHeight } = Dimensions.get('window');
 
@@ -21,6 +22,7 @@ const SearchScreen: React.FC = () => {
         <ImageComponent />
       </View>
       <GradientComponent height={gradientHeight > 0 ? gradientHeight : windowHeight * 0.6} />
+        <ArtistSectionComponent />
     </ScrollView>
   );
 };
