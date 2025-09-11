@@ -11,6 +11,7 @@ const ImageComponent: React.FC = () => {
         style={ImageComponentStyles.image}
         resizeMode="cover"
       />
+      <View style={ImageComponentStyles.bottomBorder} />
     </View>
   );
 };

@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const MyTabBarStyles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    backgroundColor: '#181818',
+    backgroundColor: '#000000ec',
     paddingVertical: 30,
   },
   pressable: {
