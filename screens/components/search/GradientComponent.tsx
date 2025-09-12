@@ -1,47 +1,64 @@
 
 import React from "react";
-import { StyleSheet, useWindowDimensions } from 'react-native';
+import { StyleSheet, useWindowDimensions, View } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import MaterialDesignIcons from "@react-native-vector-icons/material-design-icons";
 import { Button, Text } from "@react-navigation/elements";
 
-const GradientComponent: React.FC<{ height?: number }> = ({ height }) => {
-  const { width, height: windowHeight } = useWindowDimensions();
-  const isPortrait = windowHeight >= width;
+const GradientComponent: React.FC= () => {
+  const { width, height } = useWindowDimensions();
   // Use more of the screen in portrait, less in landscape
-  const gradientHeight = height
-    ? height * (isPortrait ? 0.22 : 0.18)
-    : isPortrait
-      ? windowHeight * 0.22
-      : windowHeight * 0.18;
+  const gradientHeight = height;
 
   const styles = StyleSheet.create({
     gradient: {
       width: width,
-      height: gradientHeight,
-      minHeight: 200,
-      justifyContent: 'center',
-      alignItems: 'center',
+      height: gradientHeight * 0.1,
+      minHeight: 100,
+    },
+    buttonscontainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'middle',
+      marginTop: 10,
     },
     button: {
-      borderColor: '#FFFFFF',
-      borderWidth: 1,
+      borderColor: '#5B5A5A',
+      borderWidth: 2,
       borderRadius: 50,
       paddingHorizontal: 20,
       paddingVertical: 10,
-      width: 120,
+      width: "auto",
       backgroundColor: 'transparent',
-      marginTop: 10,
     },
     buttonText: {
       color: '#FFFFFF',
       fontFamily: 'SpotifyMix-Bold',
     },
-    icon: {
+    righticon: {
       color: '#FFFFFF',
       fontSize: 30,
       margin: 5,
-    }
+    },
+    lefticon: {
+      color: '#FFFFFF',
+      fontSize: 30,
+      margin: 5,
+    },
+    leftContainer: {
+      flexDirection: 'row',
+      alignItems: 'flex-start',
+      gap: 10,
+    },
+    rightContainer: {
+      flexDirection: 'row',
+      alignItems: 'flex-end',
+      gap: 10,
+    },
+    pauseButton: {
+      color: '#00D15E',
+      fontSize: 50
+    },
   });
 
   return (
@@ -50,12 +67,20 @@ const GradientComponent: React.FC<{ height?: number }> = ({ height }) => {
       start={{ x: 0.5, y: 0 }}
       end={{ x: 0.5, y: 1 }}
       style={styles.gradient}
-    >
-      <Text>587.9K monthly listeners</Text>
-      <MaterialDesignIcons name="shuffle-variant" style={styles.icon} />
-      <MaterialDesignIcons name="dots-horizontal" style={styles.icon} />
-      <MaterialDesignIcons name="pause-circle" style={styles.icon} />
-      <Button style={styles.button} ><Text style={styles.buttonText}>Follow</Text></Button>
+    >       
+     <Text>587.9K monthly listeners</Text>
+      <View style={styles.buttonscontainer}>
+        <View style={styles.leftContainer}>
+          <Button style={styles.button} >
+              <Text style={styles.buttonText}>Follow</Text>
+          </Button>
+          <MaterialDesignIcons name="dots-horizontal" style={styles.lefticon} />
+        </View>
+        <View style={styles.rightContainer}>
+          <MaterialDesignIcons name="shuffle-variant" style={styles.righticon} />
+          <MaterialDesignIcons name="pause-circle" style={[styles.righticon, styles.pauseButton]} />
+        </View>
+      </View>
     </LinearGradient>
   );
 };

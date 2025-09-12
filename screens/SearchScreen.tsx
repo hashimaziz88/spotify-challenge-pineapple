@@ -4,6 +4,7 @@ import { StyleSheet, ScrollView, View, LayoutChangeEvent, Dimensions } from 'rea
 import ImageComponent from './components/search/ImageComponent';
 import GradientComponent from './components/search/GradientComponent';
 import ArtistSectionComponent from './components/search/ArtistSectionComponent';
+import ArtistSongsComponent from './components/search/ArtistSongsComponent';
 
 const { height: windowHeight } = Dimensions.get('window');
 
@@ -14,15 +15,16 @@ const SearchScreen: React.FC = () => {
     setImageHeight(event.nativeEvent.layout.height);
   };
 
-  const gradientHeight = windowHeight - imageHeight;
 
   return (
     <ScrollView style={styles.container}>
       <View onLayout={handleImageLayout}>
         <ImageComponent />
       </View>
-      <GradientComponent height={gradientHeight > 0 ? gradientHeight : windowHeight * 0.6} />
-        <ArtistSectionComponent />
+      <GradientComponent/>
+      <ArtistSectionComponent />
+      <ArtistSongsComponent />
+
     </ScrollView>
   );
 };
