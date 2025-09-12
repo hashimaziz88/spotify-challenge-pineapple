@@ -4,7 +4,6 @@ const MyTabBarStyles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     backgroundColor: '#000000ec',
-    paddingVertical: 30,
   },
   pressable: {
     flex: 1,

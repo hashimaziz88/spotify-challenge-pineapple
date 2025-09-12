@@ -57,7 +57,13 @@ const MyTabBar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigation 
               {label === 'Home' && (
                 <MaterialDesignIcons name="home-variant" color={isFocused ? '#FFFFFF' : '#B4B4B4'} size={24} style={{ marginBottom: 2 }} />
               )}
-              <Text style={[MyTabBarStyles.label, { color: isFocused ? '#FFFFFF' : '#B4B4B4', marginTop: 0 }]}> 
+              {label === 'Search' && (
+                <MaterialDesignIcons name="magnify" color={isFocused ? '#FFFFFF' : '#B4B4B4'} size={24} style={{ marginBottom: 2 }} />
+              )}
+              {label === 'Your Library' && (
+                <MaterialDesignIcons name="library-music" color={isFocused ? '#FFFFFF' : '#B4B4B4'} size={24} style={{ marginBottom: 2 }} />
+              )}
+              <Text style={{ color: isFocused ? '#FFFFFF' : '#B4B4B4', fontSize: 12 }}>
                 {label}
               </Text>
             </View>
