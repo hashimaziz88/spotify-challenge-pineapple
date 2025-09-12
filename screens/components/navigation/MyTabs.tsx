@@ -11,8 +11,9 @@ const Tab = createBottomTabNavigator();
 const MyTabs: React.FC = () => {
   return (
     <Tab.Navigator tabBar={(props) => <MyTabBar {...props} />} screenOptions={{ headerShown: false }}>
-      <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Search" component={SearchScreen} />
+      <Tab.Screen name="Home" component={HomeScreen} />
+
       <Tab.Screen name="Your Library" component={ProfileScreen} />
     </Tab.Navigator>
   );
